@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+
+{% load static %}
+
+{% block title %}My Gallery {% endblock %}
+{% block header %} Welcome to My Gallery{% endblock %}
+
+{% block content %}
+
+    <img src="{% static 'img/am.jpeg' %}" alt="">
+    <img src="{% static 'img/am1.jpeg' %}" alt="">
+    <img src="{% static 'img/am2.jpeg' %}" alt="">
+
+{% endblock %}
+
+
